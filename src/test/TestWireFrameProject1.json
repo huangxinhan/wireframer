@@ -1,0 +1,371 @@
+{
+    "wireframes": [
+        {
+            "key": 0,
+            "name": "Immune Invasions",
+            "owner": "Xin Han Huang",
+            "controls": 
+                {
+                    "container": [
+                        {
+                            "key": 0,
+                            "positionX": 100,
+                            "positionY": 100,
+                            "sizeWidth": 1000,
+                            "sizeHeight": 1000,
+                            "color": "#1a9003",
+                            "borderWidth" : 3,
+                            "textFont": 13,
+                            "textColor": "#ded897",
+                            "text": "Container",
+                            "borderColor": "#000000",
+                            "type" : "container"
+                        }
+                    ],
+                    "label": [
+                        {
+                            "key": 0,
+                            "positionX": 0,
+                            "positionY": 0,
+                            "sizeWidth": 200,
+                            "sizeHeight": 100,
+                            "color": "#98804c",
+                            "borderWidth" : 1,
+                            "textFont": 14,
+                            "textColor": "#98804c",
+                            "text": "Label",
+                            "borderColor": "#000000",
+                            "type" : "label",
+                            "opacity" : 1
+                        },
+                        {
+                            "key": 1,
+                            "positionX": 100,
+                            "positionY": 100,
+                            "sizeWidth": 200,
+                            "sizeHeight": 100,
+                            "color": "#92e9bd",
+                            "borderWidth" : 1,
+                            "textFont": 14,
+                            "textColor": "#92e9bd",
+                            "text": "Label",
+                            "borderColor": "#000000",
+                            "type" : "label",
+                            "opacity" : 1
+                        },
+                        {
+                            "key": 2,
+                            "positionX": 400,
+                            "positionY": 400,
+                            "sizeWidth": 200,
+                            "sizeHeight": 100,
+                            "color": "#92e9bd",
+                            "borderWidth" : 3,
+                            "textFont": 4,
+                            "textColor": "#92e9bd",
+                            "text": "Label",
+                            "borderColor": "#000000",
+                            "type" : "label",
+                            "opacity" : 1
+                        }
+                    ],
+                    "button": [
+                        {
+                            "key": 0,
+                            "positionX": 600,
+                            "positionY": 600,
+                            "sizeWidth": 50,
+                            "sizeHeight": 50,
+                            "color": "#92e9bd",
+                            "borderWidth" : 0,
+                            "textFont": 10,
+                            "textColor": "#92e9bd",
+                            "text": "Click me!",
+                            "borderColor": "#000000",
+                            "type": "button"
+                        },
+                        {
+                            "key": 1,
+                            "positionX": 800,
+                            "positionY": 800,
+                            "sizeWidth": 50,
+                            "sizeHeight": 50,
+                            "color": "#0adfac",
+                            "borderWidth" : 0,
+                            "textFont": 10,
+                            "textColor": "#0adfac",
+                            "text": "Click me!",
+                            "borderColor": "#000000",
+                            "type": "button"
+                        }
+                    ],
+                    "textfield": [
+                        {
+                            "key": 0,
+                            "positionX": 900,
+                            "positionY": 900,
+                            "sizeWidth": 100,
+                            "sizeHeight": 25,
+                            "color": "#0adfac",
+                            "borderWidth" : 0,
+                            "textFont": 10,
+                            "textColor": "#0adfac",
+                            "text": "Type here!",
+                            "borderColor": "#000000",
+                            "type": "textfield"
+                        }
+                    ]
+                }
+        },
+        {
+            "key": 1,
+            "name": "TodoList Home Screen",
+            "owner": "Jonathan Joestar",
+            "controls": 
+                {
+                    "container": [
+                        {
+                            "key": 0,
+                            "positionX": 0,
+                            "positionY": 0,
+                            "sizeWidth": 1000,
+                            "sizeHeight": 1000,
+                            "color": "#0adfac",
+                            "borderWidth" : 3,
+                            "textFont": 13,
+                            "textColor": "#edaf25",
+                            "text": "Container",
+                            "borderColor": "#000000",
+                            "type": "container"
+                        }
+                    ],
+                    "label": [
+                        {
+                            "key": 0,
+                            "positionX": 0,
+                            "positionY": 0,
+                            "sizeWidth": 200,
+                            "sizeHeight": 100,
+                            "color": "#edaf25",
+                            "borderWidth" : 1,
+                            "textFont": 14,
+                            "textColor": "#edaf25",
+                            "text": "label",
+                            "borderColor": "#000000",
+                            "type": "label",
+                            "opacity" : 1
+                        },
+                        {
+                            "key": 1,
+                            "positionX": 250,
+                            "positionY": 100,
+                            "sizeWidth": 100,
+                            "sizeHeight": 200,
+                            "color": "#edaf25",
+                            "borderWidth" : 1,
+                            "textFont": 14,
+                            "textColor": "#2d5276",
+                            "text": "label",
+                            "borderColor": "#000000",
+                            "type": "label",
+                            "opacity" : 1
+                        }
+                    ],
+                    "button": [
+                        {
+                            "key": 0,
+                            "positionX": 600,
+                            "positionY": 600,
+                            "sizeWidth": 50,
+                            "sizeHeight": 50,
+                            "color": "#2d5276",
+                            "borderWidth" : 0,
+                            "textFont": 10,
+                            "textColor": "#2d5276",
+                            "text": "Click me!",
+                            "borderColor": "#000000",
+                            "type": "button"
+                        },
+                        {
+                            "key": 1,
+                            "positionX": 800,
+                            "positionY": 800,
+                            "sizeWidth": 50,
+                            "sizeHeight": 50,
+                            "color": "#2d5276",
+                            "borderWidth" : 0,
+                            "textFont": 10,
+                            "textColor": "#e5e0d8",
+                            "text": "Click me!",
+                            "borderColor": "#000000",
+                            "type": "button"
+                        },
+                        {
+                            "key": 2,
+                            "positionX": 400,
+                            "positionY": 400,
+                            "sizeWidth": 100,
+                            "sizeHeight": 50,
+                            "color": "#e5e0d8",
+                            "borderWidth" : 0,
+                            "textFont": 10,
+                            "textColor": "#2d5276",
+                            "text": "Click me!",
+                            "borderColor": "#000000",
+                            "type": "button"
+                        }
+                    ],
+                    "textfield": [
+                        {
+                            "key": 0,
+                            "positionX": 900,
+                            "positionY": 900,
+                            "sizeWidth": 100,
+                            "sizeHeight": 25,
+                            "color": "#0d84d2",
+                            "borderWidth" : 0,
+                            "textFont": 10,
+                            "textColor": "#fd7c61",
+                            "text": "Enter text here",
+                            "borderColor": "#000000",
+                            "type": "textfield"
+                        },
+                        {
+                            "key": 1,
+                            "positionX": 125,
+                            "positionY": 124,
+                            "sizeWidth": 100,
+                            "sizeHeight": 25,
+                            "color": "#0d84d2",
+                            "borderWidth" : 0,
+                            "textFont": 12,
+                            "textColor": "#fd7c61",
+                            "text": "Enter HERE!!",
+                            "borderColor": "#000000",
+                            "type": "textfield"
+                        }
+                    ]
+                }
+        },
+        {
+            "key": 2,
+            "name": "Random Test Screen",
+            "owner": "Xin Han Huang",
+            "controls": 
+                {
+                    "container": [
+                        {
+                            "key": 0,
+                            "positionX": 0,
+                            "positionY": 0,
+                            "sizeWidth": 1000,
+                            "sizeHeight": 1000,
+                            "color": "#fd7c61",
+                            "borderWidth" : 3,
+                            "textFont": 13,
+                            "textColor": "#fd7c61",
+                            "text": "Container",
+                            "borderColor": "#000000",
+                            "type": "container"
+
+                        }
+                    ],
+                    "label": [
+                        {
+                            "key": 0,
+                            "positionX": 0,
+                            "positionY": 0,
+                            "sizeWidth": 200,
+                            "sizeHeight": 100,
+                            "color": "#88985c",
+                            "borderWidth" : 1,
+                            "textFont": 14,
+                            "textColor": "#92e9bd",
+                            "text": "LABEL",
+                            "borderColor": "#000000",
+                            "type": "label",
+                            "opacity" : 1
+                        },
+                        {
+                            "key": 1,
+                            "positionX": 100,
+                            "positionY": 100,
+                            "sizeWidth": 200,
+                            "sizeHeight": 100,
+                            "color": "#88985c",
+                            "borderWidth" : 1,
+                            "textFont": 14,
+                            "textColor": "#92e9bd",
+                            "text": "LABEL2",
+                            "borderColor": "#000000",
+                            "type": "label",
+                            "opacity" : 1
+                        },
+                        {
+                            "key": 2,
+                            "positionX": 400,
+                            "positionY": 400,
+                            "sizeWidth": 200,
+                            "sizeHeight": 100,
+                            "color": "#baf300",
+                            "borderWidth" : 3,
+                            "textFont": 4,
+                            "textColor": "#5b84e1",
+                            "text": "FINAL LABEL",
+                            "borderColor": "#000000",
+                            "type": "label",
+                            "opacity" : 1
+                        }
+                    ],
+                    "button": [
+                        {
+                            "key": 0,
+                            "positionX": 600,
+                            "positionY": 600,
+                            "sizeWidth": 50,
+                            "sizeHeight": 50,
+                            "color": "#baf300",
+                            "borderWidth" : 0,
+                            "textFont": 10,
+                            "textColor": "#5b84e1",
+                            "text": "Click me to Submit",
+                            "borderColor": "#000000",
+                            "type": "button"
+                        },
+                        {
+                            "key": 1,
+                            "positionX": 800,
+                            "positionY": 800,
+                            "sizeWidth": 50,
+                            "sizeHeight": 50,
+                            "color": "#baf300",
+                            "borderWidth" : 0,
+                            "textFont": 10,
+                            "textColor": "#5b84e1",
+                            "text": "Click me to Submit!",
+                            "borderColor": "#000000",
+                            "type": "button"
+                        }
+                    ],
+                    "textfield": [
+                        {
+                            "key": 0,
+                            "positionX": 900,
+                            "positionY": 900,
+                            "sizeWidth": 100,
+                            "sizeHeight": 25,
+                            "color": "#b0e236",
+                            "borderWidth" : 0,
+                            "textFont": 10,
+                            "textColor": "#4feb5c",
+                            "text": "TEXTFIELD IS COOL!",
+                            "borderColor": "#000000",
+                            "type": "textfield"
+                        }
+                    ]
+                }
+        }
+
+    ]
+
+}

@@ -1,0 +1,288 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+}
+
+body {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  top: 5%;
+}
+
+div.banner {
+  padding: 20px;
+  margin-top: 60px;
+}
+
+form {
+  padding: 20px;
+  margin-top: 60px;
+}
+
+form button, form h5 {
+  margin: 20px 0;
+}
+.list_item_card, .list_item_header_car {
+  position: relative;
+  height: 50px;
+  grid-row-gap: 0px;
+  grid-column-gap: 50px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.list_item_add_card{
+  position: relative;
+  height: 70px;
+  grid-row-gap: 0px;
+  grid-column-gap: 30px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.list_item_add_card {
+  text-align: center;
+  vertical-align: center;
+}
+
+#controlbutton {
+  resize: both;
+  overflow: auto
+}
+
+#options-left-div {
+  background-image: linear-gradient(to bottom,         
+  #8940e9, #d34060);
+}
+
+.options-left-div {
+  background-image: linear-gradient(to bottom,         
+  #8940e9, #d34060);
+}
+
+#options-right-div {
+  background-image: linear-gradient(to bottom,         
+  #8940e9, #d34060);
+}
+
+.options-right-div {
+  background-image: linear-gradient(to bottom,         
+  #8940e9, #d34060);
+}
+
+#list_item_card{
+  position: relative;
+  height: 50px;
+  grid-row-gap: 0px;
+  grid-column-gap: 50px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+@-webkit-keyframes slide {
+  100% {left: 30%; }
+}
+
+@keyframes slide{
+  100% {left: 30%; }
+}
+
+.card-title {
+  position: absolute;
+  left: 2%;
+  top:1%;
+}
+#list_item_task_header, #list_item_due_date_header, #list_item_status_header {
+  position: absolute;
+  top: 20%;
+  z-index: 2;
+}
+.card-due-date, .card-assigned-to,
+.card-completed, .card-not-completed,
+.hover-button{
+  position: absolute;
+  top: 50%;
+}
+
+.new-hover-button{
+  position: relative;
+  
+}
+
+.card-assigned-to {
+  left: 2%;
+}
+#list_item_task_header{
+  left: 17%;
+}
+.card-due-date {
+  left: 35%;
+}
+
+#list_item_due_date_header{
+  left:38%;
+}
+
+.card-completed, .card-not-completed {
+  left: 60%;
+}
+
+.hover-button{
+  left: 95%
+}
+
+#new-hover-button{
+  position: absolute;
+  top:18%;
+  left:95%
+}
+
+.hover-wireframeButton{
+  
+}
+
+.resizableContainer{
+ 
+}
+
+#resizableContainer {
+  box-sizing: border-box;
+  background: white;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#resizers #resizableContainer{
+  width: 100%;
+  height: 100%;
+  border: 3px solid #4286f4;
+  box-sizing: border-box;
+}
+
+#resizers{
+width: 10px;
+height: 10px;
+background: white;
+border: 3px solid #4286f4;
+position: relative;
+}
+
+#resizableContainer #resizers #resizer-top-left{
+  left: -5px;
+  top: -5px;
+  cursor: nwse-resize; /*resizer cursor*/
+}
+
+#resizableContainer #resizers #resizer-top-right{
+  right: -5px;
+  top: -5px;
+  cursor: nesw-resize;
+}
+
+#resizableContainer #resizers #resizer-bottom-left{
+  left: -5px;
+  bottom: -5px;
+  cursor: nesw-resize;
+}
+
+#resizableContainer #resizers #resizer-bottom-right{
+  right: -5px;
+  bottom: -5px;
+  cursor: nwse-resize;
+}
+
+#container-highlight{
+  border: 15px solid yellow
+}
+
+#trash_icon{
+   left:95%;
+   position: relative;
+}
+
+#confirm-delete-list{
+  z-index: 5;
+}
+
+#list_item_status_header{
+  left:56.5%;
+}
+
+.list_item_card_toolbar {
+  position: absolute;
+  left: 75%;
+  width: 15%;
+  top: 5%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  z-index: 2;
+}
+
+.list_item_card_button {
+  background-color: var(--swatch-accent);
+  text-align: center;
+  border-radius: 5px;
+  margin: 1%;
+  z-index: 3;
+}
+
+.list_item_card_button_disabled {
+  background-color: grey;
+  text-align: center;
+  border-radius: 5px;
+  margin: 1%;
+  z-index: 3;
+}
+
+#main-diagram{
+  position: relative
+}
+
+#options-left{
+  position: relative;
+}
+
+#options-right{
+  position: relative;
+}
+
+
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color: #ec407a;
+  box-shadow: none;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label{
+  color: #ec407a !important;
+}
